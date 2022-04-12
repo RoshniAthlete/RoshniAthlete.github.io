@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+body{
+    background-color:#252523;
+margin-left: 5%;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+section#sec {
+    height:max-content;
+    margin: 100px ;
+
+}
+.mini-container{
+    width: 80%;
+color:gold;
+margin: 50px;
+padding-top: 1px;
+background-color:#333532;
+
+
+}
+.mini-container h5{
+    margin-top: 5px;
+    font-family:'Times New Roman', Times, serif ;
+}
+.home__social{
+    display: flex;
+    flex-direction: column;
+  }
+  .home__social-icon{
+    width: max-content;
+    margin-bottom: var(--mb-2);
+    font-size: 1.5rem;
+    color: var(--second-color);
+  }
+  .home__social-icon:hover{
+    color: var(--first-color);
+  }
+
+
+
+.left{display: flex;}
+
+.mini-container2{
+width: 50%;
+color:gold;
+padding-top: 20px;
+background-color:white;
+padding-left: 60px;
+max-height: 100%;
+
+}
+
+
+
+
+
+.mini-container2 .contact  h2 {
+
+color: #F39C12;
+font-size: 30px;
+letter-spacing: 2px;
+padding-bottom: 15px;
+
+}
+.mini-container2 .contact{
+    padding-top: 10px;
+color: black;
+
+}
+.mini-container2 .contact h4{
+    font-family: 'Andika New Basic', sans-serif;
+font-size:15px;
+}
+.social{
+    display: flex;
+}
+.fb{
+
+width: 50px;
+height: 50px;
+border: none;
+border-radius: 100%;
+background-color: white;
+}
+.linkedin{
+width: 50px;
+height: 50px;
+border: none;
+border-radius: 100%;
+background-color: white;
+}
+.twitter{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 100%;
+    background-color: white;
+    }

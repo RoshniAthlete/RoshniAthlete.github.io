@@ -1,0 +1,97 @@
+body {
+  background-image: url(https://thumbs.dreamstime.com/b/color-smoke-black-background-38441280.jpg);
+  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+  background-size: cover;
+  position: relative;
+}
+
+ul {
+ 
+  display: flex;
+  align-content: center;
+  justify-content: center;
+} 
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color:aqua;
+  font-size: 2em;
+  padding: 1em;
+  white-space: nowrap;
+  letter-spacing: 2px;
+}
+
+ul li a:hover {
+  border-bottom: 3px solid #fff;
+}
+
+.header {
+  padding: 2px;
+  height: 100vh;
+  background: url(https://lh3.googleusercontent.com/c1aqU0BLtTMfDlZlWRYeBiNKXMzRBYqdBk4goDnbnhLtVve6SxfpVdT8LL3sLtHJ1ilJ0TyJTIc1XeOj9Y3Go_TcZIJD-xxiUIvdHIC1_9N7MTrcj1asCHshy9l75FfW1a-WmNtVpm5BqMXT4UmlRRudQUxv6ZUe-qJQdsYNiyBTRa9ojia8kwshLhDhxbs6s8ShikSi2MrA-wNtx8Tb0GcuC5HMPKqsMToZVA6X_pSGLZ9hOdtoF1IOp2DWKmaMKTBYmNCtowuDm2gVP5rOuox-Xq6F_gWDqDzH-Ds0egTJGtQmP_ceWRY6L0A0X1rkGzjgiZhmNLGBymlL8DXrY6jVpn8JeH2wOfn5YH2Vq6ZhcvXgkZVUh-5cjxEyQImHqVOnjb_U3zYE82wynWmkPA7r8AkCKfEyxQkhmf9537dI0wXoCo0Fgzv4MUV_gpAwWOZj49jJxHdDrTeIgDk1vcnBdCYj2OqjEOfT0Oa1nn7M2tr49McPrjdRdv1trnHBj0gHzWjACZazBfPUJpfpiHmG4FvnUDlOnn7ToZ5cU7ow9G9B9t8AaV0O-rBd4QU-bh6VinE_t0LeHMmdbPHQfgXkvfplXIAopXA4TSIWi-6g-Pi0xSsMrXZ06Wmmy0XUotlvof_CPFI0e60kmCB_hMYODTFnPYhTVTYSxCuKZaWlSx_cK8NvKhq9skQKFnphaV7pScG1AlFF3Zrl7S-SZ3fV-Pln7HQd4lf4nEYw6ffVPMv4obMJKtFKRGxQttlaraQMJUC59l1lfdO59wzmCZMQYDiAAGaB=w1514-h914-no?authuser=0) no-repeat  center;
+  background-size: cover;
+  position: relative;
+  color: azure;
+}
+.header h1 {
+  margin: 0;
+  font-weight: 900;
+  font-size: 5rem;
+  letter-spacing: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 5px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.header .content {
+  position: relative;
+  top: 45%;
+  text-align: center;
+}
+
+.flex1 {
+  display: flex;
+  color: #5DADE2;
+  padding: 100px 150px 150px 100px;
+  position: center;
+  background: url(https://images.unsplash.com/photo-1515191107209-c28698631303?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80);
+  background-size: cover;
+  position: relative;
+}
+
+.flex1 h1 {
+  font-size: 325%;
+  text-align: center;
+}
+.flex1 p {
+  font-weight: 400%;
+  font-family: serif;
+  font-size: 150%;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.flex {
+  display: flex;
+  color: white;
+  padding-left: 3%;
+  padding-right: 3%;
+  position: center;
+}
+
+.flex2 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 6%;
+  padding-right: 2%;
+  background: black;
+
+}
